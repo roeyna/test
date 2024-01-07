@@ -36,7 +36,7 @@ jobs:
 
     - name: Step 5 - What is in the target folder?
       run: 
-        cd target
+        cd target\n
         ls -a
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
